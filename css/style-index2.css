@@ -1,0 +1,274 @@
+/* All */
+@font-face {
+  font-family: DM Sans;
+  src: url(font/DM_Sans/DMSans-Regular.ttf);
+}
+
+:root {
+  --primary: #080054;
+  --primary2: #900c3f;
+  --bg: #f3f6fb;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  background-color: var(--bg);
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg);
+  align-items: center;
+  padding: 0.9rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+/* Navbar-right */
+.navbar .navbar-logo {
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary);
+  display: inline-block;
+  transition: .2s;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary2);
+}
+
+.navbar .navbar-logo:hover {
+  opacity: .8;
+}
+
+/* Navbar-center */
+.navbar .navbar-nav a {
+  color: var(--primary);
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.07rem;
+  font-weight: 395;
+  transition: 70ms;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary2);
+}
+
+/* Code untuk memberi garis bawah pada navbar-nav ketika di-hover  */
+/* .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--primary2);
+    transform: scaleX(0);
+    transition: 100ms linear;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+    } */
+
+/* Navbar-left */
+.navbar .navbar-extra a {
+  color: var(--primary);
+  margin: 0 0.6rem;
+}
+
+.navbar .navbar-extra i {
+  color: var(--primary);
+}
+
+.navbar .navbar-extra i:hover {
+  color: var(--primary2);
+}
+
+#menu {
+  display: none;
+}
+
+/* HERO */
+.hero {
+  max-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem 5% 1rem 5%;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.hero img {
+  max-width: 35vw;
+}
+
+.hero .content h1 {
+  font-size: 4em;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin: 0;
+  display: inline-block;
+  padding-top: 2rem;
+  line-height: 3.5rem;
+}
+
+.hero .content h1 .made {
+  font-size: .9em;
+}
+
+.hero .content h1 .indo {
+  color: var(--primary2);
+}
+
+.hero .content p {
+  font-size: 1.5rem;
+  margin: .5rem 0;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.hero .content .cta {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: .7rem 1.2rem;
+  font-size: 1rem;
+  color: var(--bg);
+  background-color: var(--primary);
+  border-radius: .5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-right: 0.2rem;
+  transition: .3s;
+}
+
+.hero .content .cta:hover {
+  color: var(--primary);
+  background-color: var(--bg);
+}
+
+.hero .content .product {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: .7rem 1.2rem;
+  font-size: 1rem;
+  color: var(--bg);
+  background-color: var(--primary);
+  border-radius: .5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  transition: .3s;
+}
+
+.hero .content .product:hover {
+  color: var(--primary);
+  background-color: var(--bg);
+}
+
+/* MEDIA QUERIES */
+/* PC 4k */
+@media (width: 2560px){
+  html {
+    -webkit-font-size: 180%;
+    font-size: 180%;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    -webkit-font-size: 90%;
+    font-size: 90%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+  html {
+    -webkit-font-size: 80%;
+    font-size: 80%;
+  }
+  
+  #menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    background-color: black;
+    opacity: .8;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  .navbar .navbar-nav.active {
+    left: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero img {
+    width: 90%;
+  }
+
+  .hero {
+    display: flex;
+    font-size: 80%;
+  }
+}
+
+/* Mobile Phone 1 */
+@media (width: 540px) {
+  html {
+    -webkit-font-size: 60%;
+    font-size: 60%;
+  }
+
+  .hero img {
+    width: 90%;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+  }
+}
+
+/* Mobile Phone 2 */
+@media (max-width: 450px) {
+  html {
+    -webkit-font-size: 60%;
+    font-size: 60%;
+  }
+
+  .hero img {
+    width: 90%;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+  }
+}
