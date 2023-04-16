@@ -6,7 +6,7 @@
 
 :root {
   --primary: #080054;
-  --primary2: #900c3f;
+  --primary2: #EC994B;
   --bg: #f3f6fb;
 }
 
@@ -23,7 +23,7 @@ body {
   background-color: var(--bg);
 }
 
-/* NAVBAR */
+/* ---------- NAVBAR ---------- */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -102,7 +102,7 @@ body {
   display: none;
 }
 
-/* HERO */
+/* ---------- HERO ---------- */
 .hero {
   max-height: 100vh;
   display: flex;
@@ -113,7 +113,7 @@ body {
 }
 
 .hero img {
-  max-width: 35vw;
+  max-width: 60vw;
 }
 
 .hero .content h1 {
@@ -131,12 +131,13 @@ body {
 
 .hero .content h1 .indo {
   color: var(--primary2);
+  text-shadow: 1px 1px 1px #000;
 }
 
 .hero .content p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: .5rem 0;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  /* text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); */
 }
 
 .hero .content .cta {
@@ -150,7 +151,7 @@ body {
   border-radius: .5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   margin-right: 0.2rem;
-  transition: .3s;
+  transition: .1s;
 }
 
 .hero .content .cta:hover {
@@ -176,7 +177,7 @@ body {
   background-color: var(--bg);
 }
 
-/* MEDIA QUERIES */
+/* ---------- MEDIA QUERIES ---------- */
 /* PC 4k */
 @media (width: 2560px){
   html {
