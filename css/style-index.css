@@ -48,10 +48,6 @@ body {
   transition: .2s;
 }
 
-/* .navbar .navbar-logo span {
-  color: var(--primary2);
-} */
-
 .navbar .navbar-logo:hover {
   opacity: .8;
 }
@@ -71,20 +67,6 @@ body {
   color: var(--primary2);
 }
 
-/* Code untuk memberi garis bawah pada navbar-nav ketika di-hover  */
-/* .navbar .navbar-nav a::after {
-    content: "";
-    display: block;
-    padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid var(--primary2);
-    transform: scaleX(0);
-    transition: 100ms linear;
-    }
-
-    .navbar .navbar-nav a:hover::after {
-    transform: scaleX(0.5);
-    } */
-
 /* Navbar-left */
 .navbar .navbar-extra a {
   color: var(--primary);
@@ -97,10 +79,6 @@ body {
 
 .navbar .navbar-extra i:hover {
   color: var(--primary2);
-}
-
-#menu {
-  display: none;
 }
 
 /* ---------- HERO ---------- */
@@ -142,7 +120,6 @@ body {
 .hero .content p {
   font-size: 1rem;
   margin: .5rem 0;
-  /* text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); */
 }
 
 .hero .content .cta {
@@ -183,7 +160,8 @@ body {
 }
 
 /* ---------- SERVICE AND PRODUCT (SNP) ---------- */
-.snp {
+#snp {
+  width: fit-content;
   height: 1000px;
   /* max-height: 100vh; */
   display: flex;
@@ -192,115 +170,43 @@ body {
   margin-top: 5%;
 }
 
-.snp .sect-title h2 {
+#snp .title-container h2 {
   font-weight: lighter;
   color: var(--primary3);
   margin: 0;
 }
 
-.snp .sect-title h1 {
+#snp .title-container h1 {
   font-size: 2.5rem;
   text-shadow: 0 3.5px 5px grey;
   margin: 0;
 }
 
-.snp .btn-viewMore {
-  font-size: 1rem;
+#snp .card-container {
+  width: 1300px;
+  height: 493px;
+  background-color: grey;
+}
+
+#snp .card-container .card {
+  width: 350px;
+  height: 493px;
+  background-color: #EC994B;
+}
+
+#snp .sect-snp .viewMore {
+  border-style: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  background-color: var(--primary);
 }
 
 /* ---------- MEDIA QUERIES ---------- */
 /* PC 4k */
-@media (width: 2560px){
-  html {
-    -webkit-font-size: 180%;
-    font-size: 180%;
-  }
-}
-
-/* Laptop */
-@media (max-width: 1366px) {
-  html {
-    -webkit-font-size: 90%;
-    font-size: 90%;
-  }
-}
-
-/* Tablet */
-@media (max-width: 1000px) {
-  html {
-    -webkit-font-size: 80%;
-    font-size: 80%;
-  }
-  
-  #menu {
-    display: inline-block;
-  }
-
-  .navbar .navbar-nav {
-    position: absolute;
-    top: 100%;
-    left: -100%;
-    background-color: black;
-    opacity: .8;
-    width: 30rem;
-    height: 100vh;
-    transition: 0.3s;
-  }
-
-  .navbar .navbar-nav.active {
-    left: 0;
-  }
-
-  .navbar .navbar-nav a {
-    color: var(--bg);
-    display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-  }
-
-  .hero img {
-    width: 90%;
-  }
-
-  .hero {
-    display: flex;
-    font-size: 80%;
-  }
-}
-
-/* Mobile Phone 1 */
-@media (width: 540px) {
-  html {
-    -webkit-font-size: 60%;
-    font-size: 60%;
-  }
-
-  .hero img {
-    width: 90%;
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column;
-    font-size: 60%;
-  }
-}
-
-/* Mobile Phone 2 */
-@media (max-width: 450px) {
-  html {
-    -webkit-font-size: 60%;
-    font-size: 60%;
-  }
-
-  .hero img {
-    width: 90%;
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column;
-    font-size: 60%;
-  }
-}
+/* 1440px - Laptop L */
+/* 1024px - Laptop */
+/* 768px - Tablet */
+/* 425px - Mobile L */
+/* 375 - Mobile M */
+/* 320 - Mobile S */
