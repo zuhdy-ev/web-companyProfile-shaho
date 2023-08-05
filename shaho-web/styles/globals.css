@@ -16,10 +16,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/font/Poppins-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
 
 .font-poppins-light {
   font-family: "Poppins Light", sans-serif;
+}
+
+.font-poppins-bold {
+  font-family: "Poppins Bold", sans-serif;
 }

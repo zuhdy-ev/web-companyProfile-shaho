@@ -7,7 +7,7 @@ export default function beranda() {
     <>
       <Navbar status="beranda"/>
       <HeroBeranda />
-      {/* <ContentBeranda /> */}
+      <ContentBeranda />
     </>
   );
 }
