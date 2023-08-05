@@ -61,11 +61,11 @@ export default function Navbar(condition) {
             {/* Center */}
             <div className="hidden lg:flex">
               {menuItems.map(({ name, status, link }) => (
-                <div key={name} className="">
+                <div key={name}>
                   <Link href={link}>
                     <h1
-                      className={`text-blue-main font-poppins font-medium mx-5 xl:mx-10 ${
-                        condition.status == status ? "font-semibold" : ""
+                      className={`text-blue-main font-poppins font-medium mx-5 xl:mx-10 tracking-wide ${
+                        condition.status == status ? "font-semibold text-yellow-600" : ""
                       }`}
                     >
                       {name}
