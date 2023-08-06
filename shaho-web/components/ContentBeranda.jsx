@@ -12,7 +12,7 @@ import gerigiSM1 from "@/public/layers/Gerigi-sm-1.svg";
 export default function ContentBeranda() {
   return (
     <>
-      <div className="w-full h-auto overflow-hidden">
+      <div className="relative w-full h-auto py-8">
         <div className="w-full h-auto flex flex-col justify-center items-center">
           {/* 1 - Mobile */}
           <div className="w-[80vw] h-40 p-5 rounded-lg bg-blue-main-2 flex justify-center items-center lg:hidden">

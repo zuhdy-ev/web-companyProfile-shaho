@@ -6,8 +6,8 @@ import Link from "next/link";
 import logoShaho from "@/public/logo/logoShaho.svg";
 import burgerMenu from "@/public/icons/burgerMenu.svg";
 import closeMenu from "@/public/icons/closeMenu.png";
-import logoInstagram from "@/public/logo/logoInstagram-Nav.png";
-import logoWhatsApp from "@/public/logo/logoWhatsApp-Nav.png";
+import logoInstagram from "@/public/icons/logoInstagram-Nav.png";
+import logoWhatsApp from "@/public/icons/logoWhatsApp-Nav.png";
 
 const menuItems = [
   {
