@@ -42,7 +42,7 @@ export default function Navbar(condition) {
     <>
       <div className="z-[999] relative">
         {/* @Main Navbar */}
-        <div className="absolute bg-[#FFFFFF] w-full h-20 flex justify-center items-center drop-shadow-lg rounded-br-lg rounded-bl-lg">
+        <div className="absolute bg-[#FFFFFF] w-full h-20 flex justify-center items-center drop-shadow-lg rounded-br-lg rounded-bl-lg overflow-hidden">
           {/* --- Content --- */}
           <div className="w-[90%] md:w-[95%] h-[85%] flex justify-between items-center">
             {/* Right */}

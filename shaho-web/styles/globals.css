@@ -23,6 +23,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Poppins ExtraBold";
+  src: url("/font/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
@@ -33,4 +40,8 @@
 
 .font-poppins-bold {
   font-family: "Poppins Bold", sans-serif;
+}
+
+.font-poppins-extrabold {
+  font-family: "Poppins ExtraBold", sans-serif;
 }
