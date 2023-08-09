@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import batikTulis from "@/public/images/cards/card1_batikTulis.png";
 import batikCap from "@/public/images/cards/card2_batikCap.png";
@@ -12,9 +13,11 @@ export default function ListProducts() {
     <>
       <div className="w-[88%] max-w-[70rem] h-full flex flex-wrap">
         <div className="w-[50%] md:w-[33.33%] h-fit flex justify-center">
-          <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
-            <Image src={batikTulis} alt="batik tulis" />
-          </div>
+          <Link href={"/detail"}>
+            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+              <Image src={batikTulis} alt="batik tulis" />
+            </div>
+          </Link>
         </div>
         <div className="w-[50%] md:w-[33.33%] h-fit flex justify-center">
           <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">

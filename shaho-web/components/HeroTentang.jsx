@@ -39,7 +39,7 @@ export default function HeroTentang() {
               {/* Caption */}
               <div className="w-full h-1/2 lg:h-full flex justify-center py-3">
                 <div className="w-[25rem] lg:w-full flex justify-center md:items-center lg:items-start">
-                  <h1 className="text-center lg:text-justify lg:pt-3 lg:text-[1.5vw]">
+                  <h1 className="text-center lg:text-justify lg:pt-3 lg:text-[1.5vw] text-blue-main">
                     Batik SHAHO didirikan oleh Pak Supratono dan keluarga pada
                     tahun 1990. Nama SHAHO sendiri diambil dari nama depan
                     seluruh anggota keluarga beliau: Supratono, Haryati (istri),
