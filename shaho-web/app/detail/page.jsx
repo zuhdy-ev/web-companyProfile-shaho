@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroDetail from "@/components/HeroDetail";
+import ContentDetail from "@/components/ContentDetail";
 
 export default function page() {
   return (
@@ -7,6 +8,7 @@ export default function page() {
       <div>
         <Navbar />
         <HeroDetail />
+        <ContentDetail />
       </div>
     </>
   );
