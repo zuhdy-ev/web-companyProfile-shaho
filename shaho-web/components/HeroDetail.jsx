@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function HeroDetail() {
   return (
     <>
-      <div className="w-full h-auto min-h-screen relative flex justify-center items-center pt-20 sm:pt-28">
-        <div className="w-[90%] h-auto flex flex-col items-center lg:items-start">
-          <div className="w-full lg:w-1/2 h-auto py-2 lg:pl-3 flex justify-center items-center lg:justify-start">
+      <div className="w-full h-auto relative flex justify-center items-start py-28 md:pt-32 lg:pt-40">
+        <div className="w-[90%] flex flex-col items-center lg:items-start">
+          <div className="w-full lg:hidden h-auto py-2 lg:pl-3 flex justify-center items-center lg:justify-start">
             <h1 className="font-poppins-bold text-2xl lg:text-[2.5vw] text-blue-main-2">
               BATIK TULIS
             </h1>
@@ -15,6 +15,11 @@ export default function HeroDetail() {
               <div className="w-72 sm:w-96 h-72 sm:h-96 lg:w-[30vw] lg:h-[30vw] max-w-[35rem] max-h-[35rem] rounded-md bg-slate-500"></div>
             </div>
             <div className="max-w-full lg:w-1/2">
+              <div className="hidden w-full h-auto py-2 lg:pl-3 lg:flex justify-center items-center lg:justify-start">
+                <h1 className="font-poppins-bold text-2xl lg:text-[2.5vw] text-blue-main-2">
+                  BATIK TULIS
+                </h1>
+              </div>
               <div className="w-auto sm:w-[30rem] md:w-[35rem] lg:w-auto h-auto p-3">
                 <h1 className="text-center lg:text-start font-poppins text-blue-main text-md sm:text-lg xl:text-xl">
                   Batik Tulis adalah batik yang secara teknis dibuat langsung
