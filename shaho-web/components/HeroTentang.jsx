@@ -19,7 +19,7 @@ export default function HeroTentang() {
           {/* Container */}
           <div className="w-[90%] h-[95%] py-10 lg:h-auto flex flex-col">
             {/* Header */}
-            <div className="w-full h-auto flex flex-col justify-center items-center py-3 lg:items-start">
+            <div className="w-full h-auto flex flex-col justify-center items-center py-3 lg:hidden">
               <h1 className="text-[#73777B] lg:text-[1.5vw]">
                 PERINTIS BATIK SHAHO
               </h1>
@@ -38,8 +38,14 @@ export default function HeroTentang() {
               </div>
               {/* Caption */}
               <div className="w-full h-1/2 lg:h-full flex justify-center py-3">
-                <div className="w-[25rem] lg:w-full flex justify-center md:items-center lg:items-start">
-                  <h1 className="text-center lg:text-justify lg:pt-3 lg:text-[1.5vw] text-blue-main">
+                <div className="w-[25rem] lg:w-full flex flex-col justify-center md:items-center lg:items-start">
+                  <div className="hidden lg:flex flex-col py-5 ">
+                    <h1 className="text-[#73777B] lg:text-[1.5vw] pb-5">
+                      PERINTIS BATIK SHAHO
+                    </h1>
+                    <hr className="w-[40vw] border-[#73777B]" />
+                  </div>
+                  <h1 className="text-center lg:text-justify lg:text-[1.5vw] text-blue-main">
                     Batik SHAHO didirikan oleh Pak Supratono dan keluarga pada
                     tahun 1990. Nama SHAHO sendiri diambil dari nama depan
                     seluruh anggota keluarga beliau: Supratono, Haryati (istri),

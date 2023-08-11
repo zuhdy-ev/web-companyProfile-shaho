@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "status": "type1",
+    "productName": "Batik Tulis",
+    "productDesc": "Batik Tulis adalah batik yang secara teknis dibuat langsung dengan cara menuliskan/melukiskan lilin di atas kain hingga menghasilkan karya unik yang elegan. Batik Tulis ini cocok dijadikan kaos, kemeja, taplak, selendang, maupun bentuk-bentuk sandang lainnya.",
+    "productHeroPhoto": [
+      {
+        "hero": "/images/galeri-detail/batikTulis/sample.png"
+      }
+    ],
+    "productGallery": [
+      {
+        "alt": "Contoh batik tulis 1",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      },
+      {
+        "alt": "Contoh batik tulis 2",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      },
+      {
+        "alt": "Contoh batik tulis 3",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      },
+      {
+        "alt": "Contoh batik tulis 4",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      },
+      {
+        "alt": "Contoh batik tulis 5",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      },
+      {
+        "alt": "Contoh batik tulis 6",
+        "url": "/images/galeri-detail/batikTulis/sample.png"
+      }
+    ]
+  }
+]

@@ -23,7 +23,7 @@ const menuItems = [
   {
     name: "Blog",
     status: "blog",
-    link: "/blog",
+    link: "/abc",
   },
   {
     name: "SHAHO",

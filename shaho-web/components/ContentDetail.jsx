@@ -1,12 +1,13 @@
 import Image from "next/image";
 import ListProducts from "./ListProducts";
+import data from "@/data/data.json"
 
-import example from "@/public/images/galeri-detail/foto.png";
-import card1 from "@/public/images/galeri-detail/CARD-1.png";
-import card2 from "@/public/images/galeri-detail/CARD-2.png";
-import card3 from "@/public/images/galeri-detail/CARD-3.png";
+import sample from "@/public/images/galeri-detail/batikTulis/sample.png";
+import card1 from "@/public/images/galeri-detail/kurusMembatik/CARD-1.png";
+import card2 from "@/public/images/galeri-detail/kurusMembatik/CARD-2.png";
+import card3 from "@/public/images/galeri-detail/kurusMembatik/CARD-3.png";
 
-export default function ContentDetail() {
+export default function ContentDetail( {gallery}) {
   return (
     <>
       <div className="relative w-full h-auto flex justify-center items-center">
@@ -63,16 +64,17 @@ export default function ContentDetail() {
             </p>
             <div className="w-full flex flex-col md:flex-row md:flex-wrap justify-center items-center py-3">
               <div className="w-60 sm:w-64 md:w-72 lg:w-96 m-2">
-                <Image src={example} alt="example" />
+                {/* {data.map((data) => data.productGallery)} */}
+                <Image src={sample} alt="sample" />
               </div>
               <div className="w-60 sm:w-64 md:w-72 lg:w-96 m-2">
-                <Image src={example} alt="example" />
+                <Image src={sample} alt="sample" />
               </div>
               <div className="w-60 sm:w-64 md:w-72 lg:w-96 m-2">
-                <Image src={example} alt="example" />
+                <Image src={sample} alt="sample" />
               </div>
               <div className="w-60 sm:w-64 md:w-72 lg:w-96 m-2">
-                <Image src={example} alt="example" />
+                <Image src={sample} alt="sample" />
               </div>
             </div>
           </div>
