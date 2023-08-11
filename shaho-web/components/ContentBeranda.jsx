@@ -67,7 +67,7 @@ export default function ContentBeranda() {
                     </h1>
                   </div>
                   <div className="w-full h-2/6 ">
-                    <Link href="/kontak">
+                    <Link href={`https://wa.me/+6281346241922`} target="_blank">
                       <div className="w-[45%] h-[45%] rounded-sm bg-white-main flex justify-center items-center hover:opacity-60 hover:scale-105 duration-200 shadow-gray-500 shadow-md">
                         <h1 className="text-blue-main font-poppins text-[1vw] font-semibold tracking-wider">
                           Hubungi Kami
@@ -124,7 +124,7 @@ export default function ContentBeranda() {
                   Hubungi kami untuk mendapatkan penawaran terbaik.
                 </span>
               </h1>
-              <Link href="/kontak">
+              <Link href={`https://wa.me/+6281346241922`}>
                 <div className="w-40 lg:w-[calc(10rem+5vw)] h-12 lg:h-[calc(3rem+.5vw)] rounded-md bg-white-main flex justify-center items-center hover:opacity-60 hover:scale-105 duration-200 shadow-gray-500 shadow-md">
                   <h1 className="text-blue-main font-poppins text-[1rem] lg:text-[calc(1rem+.2vw)] font-semibold tracking-wider">
                     Hubungi Kami

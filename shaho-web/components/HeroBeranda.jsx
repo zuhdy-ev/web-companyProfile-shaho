@@ -40,7 +40,7 @@ export default function HeroBeranda() {
             </div>
 
             <div className="flex w-full py-2 gap-5 justify-center items-center lg:justify-start lg:pl-10">
-              <Link href="/kontak">
+              <Link href={`https://wa.me/+6281346241922`} target="_blank">
                 <div className="flex w-32 lg:w-[calc(8rem+2vw)] h-9 lg:h-[calc(2.25rem+.5vw)] rounded-md bg-blue-main justify-center items-center hover:opacity-60 hover:scale-105 duration-200 shadow-gray-500 shadow-md">
                   <h1 className="text-white-main font-poppins text-[.8rem] lg:text-[calc(.8rem+.2vw)] font-semibold tracking-wider">
                     Hubungi Kami

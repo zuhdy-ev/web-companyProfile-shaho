@@ -79,7 +79,7 @@ export default function Navbar(condition) {
             <button>
               {/* active on laptop & pc */}
               <div className="hidden lg:block">
-                <Link href="/kontak">
+                <Link href={`https://wa.me/+6281346241922`} target="_blank">
                   <h1 className="w-[15vw] max-w-[9rem] h-10 rounded-lg bg-blue-main text-white-main font-poppins text-sm font-medium flex justify-center items-center hover:opacity-60 duration-200">
                     Hubungi Kami
                   </h1>
