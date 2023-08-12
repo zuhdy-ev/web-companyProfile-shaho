@@ -4,9 +4,9 @@ import Link from "next/link";
 import advBahan from "@/public/layers/Adv-1.png";
 import advWarna from "@/public/layers/Adv-2.png";
 import advHarga from "@/public/layers/Adv-3.png";
-import advBahanLg from "@/public/layers/Adv-1-lg.svg";
-import advWarnaLg from "@/public/layers/Adv-2-lg.svg";
-import advHargaLg from "@/public/layers/Adv-3-lg.svg";
+import advBahanLg from "@/public/layers/Adv-1-Lg.svg";
+import advWarnaLg from "@/public/layers/Adv-2-Lg.svg";
+import advHargaLg from "@/public/layers/Adv-3-Lg.svg";
 import gerigiSM1 from "@/public/layers/Gerigi-sm-1.svg";
 
 export default function ContentBeranda() {
