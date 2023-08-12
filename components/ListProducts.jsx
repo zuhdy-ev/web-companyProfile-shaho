@@ -11,7 +11,7 @@ import peralatanMembatik from "@/public/images/cards/card6_peralatanMembatik.png
 export default function ListProducts() {
   return (
     <>
-      <div className="w-[88%] max-w-[70rem] h-full flex flex-wrap">
+      <div className="w-[88%] max-w-[70rem] h-full flex flex-wrap overflow-hidden">
         <div className="w-[50%] md:w-[33.33%] h-fit flex justify-center">
           <Link href={"/produk/batik-tulis"}>
             <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">

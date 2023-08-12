@@ -8,7 +8,7 @@ import Gerigi from "@/public/layers/Gerigi.png";
 export default function HeroBeranda() {
   return (
     <>
-      <div className="relative w-screen h-auto md:h-auto pt-20 md:pt-28 flex justify-center items-center overflow-hidden">
+      <div className="relative w-full h-auto md:h-auto pt-20 md:pt-28 flex justify-center items-center">
         <div className="w-[80%] lg:w-[90%] h-[85%] lg:h-[90%] flex flex-col lg:flex-row justify-center items-center">
           {/* @Hero Image */}
           <div className="w-full h-1/2 md:h-2/3 lg:h-full flex justify-center items-center">

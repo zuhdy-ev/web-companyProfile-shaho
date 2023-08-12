@@ -11,7 +11,7 @@ import mapsButton from "@/public/icons/maps-button.svg";
 export default function Footer() {
   return (
     <>
-      <div className="relative w-full h-auto lg:h-[25vw] lg:max-h-[25rem] flex flex-col lg:flex-row">
+      <div className="relative w-full h-auto lg:h-[25vw] lg:max-h-[25rem] flex flex-col lg:flex-row overflow-hidden">
         {/* Logo */}
         <div className="w-full h-auto py-3 lg:w-1/4 lg:h-full flex justify-center items-center lg:items-start lg:pt-10">
           <div className="hover:opacity-70 duration-200">
