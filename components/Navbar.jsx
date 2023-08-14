@@ -42,7 +42,7 @@ export default function Navbar(condition) {
     <>
       <div className="z-[999] relative">
         {/* @Main Navbar */}
-        <div className="absolute bg-[#FFFFFF] w-full h-20 flex justify-center items-center drop-shadow-lg rounded-br-lg rounded-bl-lg overflow-hidden">
+        <div className="fixed bg-[#FFFFFF] w-full h-20 flex justify-center items-center drop-shadow-lg rounded-br-lg rounded-bl-lg overflow-hidden">
           {/* --- Content --- */}
           <div className="w-[90%] md:w-[95%] h-[85%] flex justify-between items-center">
             {/* Right */}
@@ -65,7 +65,9 @@ export default function Navbar(condition) {
                   <Link href={link}>
                     <h1
                       className={`text-blue-main font-poppins font-medium mx-5 xl:mx-10 tracking-wide ${
-                        condition.status == status ? "font-semibold text-yellow-600" : ""
+                        condition.status == status
+                          ? "font-semibold text-yellow-600"
+                          : ""
                       }`}
                     >
                       {name}
@@ -100,7 +102,7 @@ export default function Navbar(condition) {
 
         {/* Sidebar for tab & mobile */}
         <div
-          className={`absolute w-[100vw] h-[100vh] lg:right-0 bg-[#1B1E23] z-[99] flex justify-center items-center ${
+          className={`fixed w-screen h-screen lg:right-0 bg-[#1B1E23] z-[99] flex justify-center items-center ${
             navbar ? "" : "translate-y-[-100%]"
           } duration-500 lg:hidden`}
         >
@@ -108,7 +110,7 @@ export default function Navbar(condition) {
           <div className="absolute w-[80%] h-[85%]  flex justify-center flex-col">
             {/* Close button */}
             <div className=" h-[15%] w-full flex justify-center">
-              <h1 className="font-sans font-bold text-white-main text-xl">
+              <h1 className="font-poppins font-bold text-white-main text-xl">
                 BATIK SHAHO
               </h1>
               <Image
@@ -127,7 +129,7 @@ export default function Navbar(condition) {
                 <div key={name}>
                   <Link href={link}>
                     <div
-                      className={`font-sans font-thin text-lg text-white-main ${
+                      className={`font-poppins font-thin text-lg text-white-main ${
                         condition.status == status
                           ? "font-semibold text-yellow-300"
                           : ""
@@ -145,7 +147,7 @@ export default function Navbar(condition) {
               <hr className="w-[99.9%]" />
             </div>
             <div className="w-full h-[35%] flex gap-5 pt-7">
-              <div>
+              {/* <div>
                 <Image
                   src={logoInstagram}
                   width={25}
@@ -160,7 +162,7 @@ export default function Navbar(condition) {
                   height={25}
                   alt="Logo WhatsApp Navbar"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
