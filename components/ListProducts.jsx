@@ -48,7 +48,7 @@ export default function ListProducts() {
           </Link>
         </div>
         <div className="w-[50%] md:w-[33.33%] flex justify-center">
-          <Link href={"/produk/abc"}>
+          <Link href={"/produk/alat-membatik"}>
             <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
               <Image src={peralatanMembatik} alt="alat membatik" />
             </div>
