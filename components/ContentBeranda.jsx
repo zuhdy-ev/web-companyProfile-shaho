@@ -115,7 +115,7 @@ export default function ContentBeranda() {
           </div>
 
           {/* 3 */}
-          <div className="w-full h-fit py-5 lg:h-[30vw] bg-blue-main-2 text-white-main flex items-center justify-center">
+          <div className="w-full h-fit py-10 lg:py-5 lg:h-[30vw] bg-blue-main-2 text-white-main flex items-center justify-center">
             <div className="w-[90%] h-[70%] flex flex-col items-center justify-center">
               <h1 className="font-poppins-bold text-lg lg:text-[2vw] text-center mb-5 lg:leading-[3vw]">
                 Temukan beragam pilihan bahan, model, motif, dan warna yang

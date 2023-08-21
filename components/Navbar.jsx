@@ -13,7 +13,7 @@ const menuItems = [
   {
     name: "Beranda",
     status: "beranda",
-    link: "/beranda",
+    link: "/",
   },
   {
     name: "Produk dan Layanan",
