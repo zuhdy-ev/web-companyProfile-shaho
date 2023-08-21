@@ -16,44 +16,44 @@ export default function page() {
   return (
     <>
       <Navbar />
-      <div className="relative w-full h-auto pt-28 pb-5 flex flex-col justify-center items-center  border border-red-600">
-        <div className="w-[90%] h-[90%] flex flex-wrap items-center  border border-red-600">
-          <div className="w-[50%] md:w-[33.33%] h-fit flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+      <div className="relative w-full h-auto pt-28 pb-5 flex flex-col justify-center items-center">
+        <div className="w-[90%] h-[90%] flex flex-wrap items-center">
+          <div className="sm:w-[50%] md:w-[33.33%] h-fit flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={Canting} alt="canting" />
             </div>
           </div>
-          <div className="w-[50%] md:w-[33.33%] h-fit flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+          <div className="sm:w-[50%] md:w-[33.33%] h-fit flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={KomporListrik} alt="kompor listrik" />
             </div>
           </div>
-          <div className="w-[50%] md:w-[33.33%] flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+          <div className="sm:w-[50%] md:w-[33.33%] flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={LilinBatik} alt="lilin batik" />
             </div>
           </div>
-          <div className="w-[50%] md:w-[33.33%] flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+          <div className="sm:w-[50%] md:w-[33.33%] flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={PewarnaBatik} alt="pewarna batik" />
             </div>
           </div>
-          <div className="w-[50%] md:w-[33.33%] flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+          <div className="sm:w-[50%] md:w-[33.33%] flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={Waterglass} alt="waterglass" />
             </div>
           </div>
-          <div className="w-[50%] md:w-[33.33%] flex justify-center">
-            <div className="p-2 sm:p-3 duration-200 hover:-translate-y-3 hover:opacity-80 cursor-pointer">
+          <div className="sm:w-[50%] md:w-[33.33%] flex justify-center">
+            <div className="p-2 sm:p-3 duration-200">
               <Image src={KainKatunPrimissima} alt="kain katun primissima" />
             </div>
           </div>
-          <div className="w-full h-auto py-10 flex flex-col items-center justify-center border border-red-600">
-            <p className="font-poppins-bold text-center text-blue-main py-3">
+          <div className="w-full h-auto py-10 lg:mb-20 flex flex-col items-center justify-center">
+            <p className="font-poppins-bold text-center text-blue-main py-3 lg:pb-7 text-lg md:text-[2vw]">
               Untuk pemesanan dan informasi lebih lanjut, silakan hubungi kami.
             </p>
             <Link href={`https://wa.me/+6281346241922`} target="_blank">
-              <div className="flex w-32 lg:w-[calc(8rem+2vw)] h-9 lg:h-[calc(2.25rem+.5vw)] rounded-md bg-blue-main justify-center items-center hover:opacity-60 hover:scale-105 duration-200 shadow-gray-500 shadow-md">
+              <div className="flex w-32 lg:w-[calc(8rem+3vw)] h-9 lg:h-[calc(2.25rem+.8vw)] rounded-md bg-blue-main justify-center items-center hover:opacity-60 hover:scale-105 duration-200 shadow-gray-500 shadow-md">
                 <h1 className="text-white-main font-poppins text-[.8rem] lg:text-[calc(.8rem+.2vw)] font-semibold tracking-wider">
                   Hubungi Kami
                 </h1>
