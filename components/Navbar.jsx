@@ -64,7 +64,7 @@ export default function Navbar(condition) {
                 <div key={name}>
                   <Link href={link}>
                     <h1
-                      className={`text-blue-main font-poppins font-medium mx-5 xl:mx-10 tracking-wide ${
+                      className={`text-blue-main font-poppins font-medium text-lg mx-5 xl:mx-10 tracking-wide ${
                         condition.status == status
                           ? "font-semibold text-yellow-600"
                           : ""

@@ -2,7 +2,7 @@
 const nextConfig = {
     output: "export",
     images: { unoptimized: true },
-    basePath: '/web-companyProfile-shaho'
+    basePath: ''
 };
 
 module.exports = nextConfig

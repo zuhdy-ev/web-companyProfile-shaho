@@ -17,7 +17,7 @@ export default function page() {
     <>
       <Navbar />
       <div className="relative w-full h-auto pt-28 pb-5 flex flex-col justify-center items-center">
-        <div className="w-[90%] h-[90%] flex flex-wrap items-center">
+        <div className="w-[90%] h-[90%] max-w-[1200px] flex flex-wrap items-center">
           <div className="sm:w-[50%] md:w-[33.33%] h-fit flex justify-center">
             <div className="p-2 sm:p-3 duration-200">
               <Image src={Canting} alt="canting" />
@@ -49,7 +49,7 @@ export default function page() {
             </div>
           </div>
           <div className="w-full h-auto py-10 lg:mb-20 flex flex-col items-center justify-center">
-            <p className="font-poppins-bold text-center text-blue-main py-3 lg:pb-7 text-lg md:text-[2vw]">
+            <p className="font-poppins-bold text-center text-blue-main py-3 lg:pb-7 text-md md:text-[2vw]">
               Untuk pemesanan dan informasi lebih lanjut, silakan hubungi kami.
             </p>
             <Link href={`https://wa.me/+6281346241922`} target="_blank">
